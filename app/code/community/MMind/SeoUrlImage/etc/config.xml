@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MMind_SeoUrlImage>
+            <version>1.0.0</version>
+        </MMind_SeoUrlImage>
+    </modules>
+    <global>
+        <models>
+            <mmseourlimage>
+                <class>MMind_SeoUrlImage_Model</class>
+            </mmseourlimage>
+            <catalog>
+                <rewrite>
+                    <product_media_config>MMind_SeoUrlImage_Model_Product_Media_Config</product_media_config>
+                </rewrite>
+                <rewrite>
+                    <product_image>MMind_SeoUrlImage_Model_Product_Image</product_image>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>
